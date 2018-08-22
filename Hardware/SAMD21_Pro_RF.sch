@@ -16253,8 +16253,8 @@ Manufacturer: Hirose&lt;br&gt;
 <smd name="SHIELD9" x="-2.43" y="0.195" dx="1.3" dy="1" layer="16" roundness="100" rot="R90" stop="no" cream="no"/>
 <smd name="SHIELD10" x="2.43" y="0.195" dx="1.3" dy="1" layer="16" roundness="100" rot="R90" stop="no" cream="no"/>
 <smd name="VBUS" x="-1.3" y="0" dx="1.75" dy="0.4" layer="1" rot="R90" cream="no"/>
-<text x="-1.016" y="2.667" size="0.508" layer="25" font="vector">&gt;NAME</text>
-<text x="-1.524" y="-3.556" size="0.508" layer="27" font="vector">&gt;VALUE</text>
+<text x="-1.016" y="-4.699" size="0.508" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.27" y="-5.461" size="0.508" layer="27" font="vector">&gt;VALUE</text>
 <polygon width="0.2032" layer="1">
 <vertex x="-3.725" y="-0.685"/>
 <vertex x="-3.73" y="-1.325"/>
@@ -16378,6 +16378,54 @@ Manufacturer: Hirose&lt;br&gt;
 <wire x1="4.02" y1="-5.645" x2="-4.02" y2="-5.645" width="0.1524" layer="51"/>
 <wire x1="-4.02" y1="-5.645" x2="-3.75" y2="-5.025" width="0.1524" layer="51"/>
 <wire x1="4.02" y1="-5.645" x2="3.75" y2="-5.025" width="0.1524" layer="51"/>
+<polygon width="0.0254" layer="2" pour="cutout">
+<vertex x="-3.429" y="-2.032"/>
+<vertex x="-2.032" y="-2.032"/>
+<vertex x="-2.032" y="-3.683"/>
+<vertex x="-3.429" y="-3.683"/>
+</polygon>
+<polygon width="0.0254" layer="15" pour="cutout">
+<vertex x="-3.429" y="-2.032"/>
+<vertex x="-2.032" y="-2.032"/>
+<vertex x="-2.032" y="-3.683"/>
+<vertex x="-3.429" y="-3.683"/>
+</polygon>
+<polygon width="0.0254" layer="15" pour="cutout">
+<vertex x="2.032" y="-2.032"/>
+<vertex x="3.429" y="-2.032"/>
+<vertex x="3.429" y="-3.683"/>
+<vertex x="2.032" y="-3.683"/>
+</polygon>
+<polygon width="0.0254" layer="2" pour="cutout">
+<vertex x="2.032" y="-2.032"/>
+<vertex x="3.429" y="-2.032"/>
+<vertex x="3.429" y="-3.683"/>
+<vertex x="2.032" y="-3.683"/>
+</polygon>
+<polygon width="0.0254" layer="15" pour="cutout">
+<vertex x="-2.921" y="0.889"/>
+<vertex x="-1.905" y="0.889"/>
+<vertex x="-1.905" y="-0.508"/>
+<vertex x="-2.921" y="-0.508"/>
+</polygon>
+<polygon width="0.0254" layer="15" pour="cutout">
+<vertex x="1.905" y="0.889"/>
+<vertex x="2.921" y="0.889"/>
+<vertex x="2.921" y="-0.508"/>
+<vertex x="1.905" y="-0.508"/>
+</polygon>
+<polygon width="0.0254" layer="2" pour="cutout">
+<vertex x="1.905" y="0.889"/>
+<vertex x="2.921" y="0.889"/>
+<vertex x="2.921" y="-0.508"/>
+<vertex x="1.905" y="-0.508"/>
+</polygon>
+<polygon width="0.0254" layer="2" pour="cutout">
+<vertex x="-2.921" y="0.889"/>
+<vertex x="-1.905" y="0.889"/>
+<vertex x="-1.905" y="-0.508"/>
+<vertex x="-2.921" y="-0.508"/>
+</polygon>
 </package>
 <package name="1X10">
 <description>&lt;h3&gt;Plated Through Hole -10 Pin&lt;/h3&gt;
@@ -21753,85 +21801,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkX">
-<packages>
-<package name="RFM95/96/97/98W">
-<smd name="DIO2" x="7.5" y="7" dx="3" dy="1" layer="1"/>
-<smd name="GND@1" x="-7.5" y="7" dx="3" dy="1" layer="1"/>
-<smd name="MISO" x="-7.5" y="5" dx="3" dy="1" layer="1"/>
-<smd name="MOSI" x="-7.5" y="3" dx="3" dy="1" layer="1"/>
-<smd name="SCK" x="-7.5" y="1" dx="3" dy="1" layer="1"/>
-<smd name="NSS" x="-7.5" y="-1" dx="3" dy="1" layer="1"/>
-<smd name="!RESET" x="-7.5" y="-3" dx="3" dy="1" layer="1"/>
-<smd name="DIO5" x="-7.5" y="-5" dx="3" dy="1" layer="1"/>
-<smd name="GND@2" x="-7.5" y="-7" dx="3" dy="1" layer="1"/>
-<smd name="DIO1" x="7.5" y="5" dx="3" dy="1" layer="1"/>
-<smd name="DIO0" x="7.5" y="3" dx="3" dy="1" layer="1"/>
-<smd name="3.3V" x="7.5" y="1" dx="3" dy="1" layer="1"/>
-<smd name="DIO4" x="7.5" y="-1" dx="3" dy="1" layer="1"/>
-<smd name="DIO3" x="7.5" y="-3" dx="3" dy="1" layer="1"/>
-<smd name="GND@3" x="7.5" y="-5" dx="3" dy="1" layer="1"/>
-<smd name="ANT" x="7.5" y="-7" dx="3" dy="1" layer="1"/>
-<wire x1="-8" y1="8" x2="8" y2="8" width="0.127" layer="21"/>
-<wire x1="-8" y1="-8" x2="8" y2="-8" width="0.127" layer="21"/>
-<circle x="-4" y="6" radius="0.5" width="0.127" layer="21"/>
-<wire x1="-10.16" y1="7.62" x2="-10.16" y2="6.35" width="0.127" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="RFM96W">
-<wire x1="-12.668" y1="17.812" x2="12.748" y2="17.812" width="0.254" layer="94"/>
-<wire x1="12.748" y1="17.812" x2="12.748" y2="-15.208" width="0.254" layer="94"/>
-<wire x1="12.748" y1="-15.208" x2="-12.668" y2="-15.208" width="0.254" layer="94"/>
-<wire x1="-12.668" y1="-15.208" x2="-12.668" y2="17.812" width="0.254" layer="94"/>
-<text x="-12.668" y="18.32" size="1.778" layer="95">&gt;NAME</text>
-<pin name="3.3V" x="-15.24" y="15.24" visible="pin" length="short"/>
-<pin name="GND" x="-15.24" y="-12.7" visible="pin" length="short"/>
-<pin name="!RESET" x="-15.24" y="12.7" visible="pin" length="short"/>
-<pin name="ANT" x="-15.24" y="-7.62" visible="pin" length="short"/>
-<pin name="DIO0" x="15.24" y="15.24" visible="pin" length="short" rot="R180"/>
-<pin name="DIO1" x="15.24" y="12.7" visible="pin" length="short" rot="R180"/>
-<pin name="DIO2" x="15.24" y="10.16" visible="pin" length="short" rot="R180"/>
-<pin name="DIO3" x="15.24" y="7.62" visible="pin" length="short" rot="R180"/>
-<pin name="DIO4" x="15.24" y="5.08" visible="pin" length="short" rot="R180"/>
-<pin name="DIO5" x="15.24" y="2.54" visible="pin" length="short" rot="R180"/>
-<pin name="MISO" x="15.24" y="-5.08" visible="pin" length="short" rot="R180"/>
-<pin name="MOSI" x="15.24" y="-7.62" visible="pin" length="short" rot="R180"/>
-<pin name="SCK" x="15.24" y="-10.16" visible="pin" length="short" rot="R180"/>
-<pin name="NSS" x="15.24" y="-12.7" visible="pin" length="short" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="RFM96W" prefix="U">
-<gates>
-<gate name="G$1" symbol="RFM96W" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="RFM95/96/97/98W">
-<connects>
-<connect gate="G$1" pin="!RESET" pad="!RESET"/>
-<connect gate="G$1" pin="3.3V" pad="3.3V"/>
-<connect gate="G$1" pin="ANT" pad="ANT"/>
-<connect gate="G$1" pin="DIO0" pad="DIO0"/>
-<connect gate="G$1" pin="DIO1" pad="DIO1"/>
-<connect gate="G$1" pin="DIO2" pad="DIO2"/>
-<connect gate="G$1" pin="DIO3" pad="DIO3"/>
-<connect gate="G$1" pin="DIO4" pad="DIO4"/>
-<connect gate="G$1" pin="DIO5" pad="DIO5"/>
-<connect gate="G$1" pin="GND" pad="GND@1 GND@2 GND@3"/>
-<connect gate="G$1" pin="MISO" pad="MISO"/>
-<connect gate="G$1" pin="MOSI" pad="MOSI"/>
-<connect gate="G$1" pin="NSS" pad="NSS"/>
-<connect gate="G$1" pin="SCK" pad="SCK"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Hardware">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
 This library contains board components that are not electrical in nature, such as stand-offs, magnets, and Actobotics. 
@@ -22547,6 +22516,130 @@ touch button, slider and wheel user interfaces.&lt;/p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-RF">
+<description>&lt;h3&gt;SparkFun RF, WiFi, Cellular, and Bluetooth&lt;/h3&gt;
+In this library you'll find things that send or receive RF-- cellular modules, Bluetooth, WiFi, etc.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="RFM95/96/97/98W">
+<description>&lt;h3&gt;RFM95/96/97/98&lt;/h3&gt;
+
+&lt;p&gt;The RFM95/96/97/98(W) transceivers feature the
+LoRaTM    long range modem that provides ultra-long range
+spread spectrum communication and high interference
+immunity whilst minimising current consumption. &lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.hoperf.com/upload/rf/RFM95_96_97_98W.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<circle x="-4" y="6" radius="0.5" width="0.127" layer="21"/>
+<wire x1="-8" y1="8" x2="8" y2="8" width="0.127" layer="21"/>
+<wire x1="-8" y1="-8" x2="8" y2="-8" width="0.127" layer="21"/>
+<smd name="!RESET" x="-7.5" y="-3" dx="3" dy="1" layer="1"/>
+<smd name="3.3V" x="7.5" y="1" dx="3" dy="1" layer="1"/>
+<smd name="ANT" x="7.5" y="-7" dx="3" dy="1" layer="1"/>
+<smd name="DIO0" x="7.5" y="3" dx="3" dy="1" layer="1"/>
+<smd name="DIO1" x="7.5" y="5" dx="3" dy="1" layer="1"/>
+<smd name="DIO2" x="7.5" y="7" dx="3" dy="1" layer="1"/>
+<smd name="DIO3" x="7.5" y="-3" dx="3" dy="1" layer="1"/>
+<smd name="DIO4" x="7.5" y="-1" dx="3" dy="1" layer="1"/>
+<smd name="DIO5" x="-7.5" y="-5" dx="3" dy="1" layer="1"/>
+<smd name="GND@1" x="-7.5" y="7" dx="3" dy="1" layer="1"/>
+<smd name="GND@2" x="-7.5" y="-7" dx="3" dy="1" layer="1"/>
+<smd name="GND@3" x="7.5" y="-5" dx="3" dy="1" layer="1"/>
+<smd name="MISO" x="-7.5" y="5" dx="3" dy="1" layer="1"/>
+<smd name="MOSI" x="-7.5" y="3" dx="3" dy="1" layer="1"/>
+<smd name="NSS" x="-7.5" y="-1" dx="3" dy="1" layer="1"/>
+<smd name="SCK" x="-7.5" y="1" dx="3" dy="1" layer="1"/>
+<circle x="-9.906" y="7.62" radius="0.359209375" width="0" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="RFM95W">
+<description>&lt;h3&gt;RFM95/96/97/98&lt;/h3&gt;
+
+&lt;p&gt;The RFM95/96/97/98(W) transceivers feature the
+LoRaTM    long range modem that provides ultra-long range
+spread spectrum communication and high interference
+immunity whilst minimising current consumption. &lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.hoperf.com/upload/rf/RFM95_96_97_98W.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<wire x1="-12.668" y1="17.812" x2="12.748" y2="17.812" width="0.254" layer="94"/>
+<wire x1="12.748" y1="17.812" x2="12.748" y2="-15.208" width="0.254" layer="94"/>
+<wire x1="12.748" y1="-15.208" x2="-12.668" y2="-15.208" width="0.254" layer="94"/>
+<wire x1="-12.668" y1="-15.208" x2="-12.668" y2="17.812" width="0.254" layer="94"/>
+<pin name="!RESET" x="-15.24" y="12.7" visible="pin" length="short"/>
+<pin name="3.3V" x="-15.24" y="15.24" visible="pin" length="short"/>
+<pin name="ANT" x="-15.24" y="-7.62" visible="pin" length="short"/>
+<pin name="DIO0" x="15.24" y="15.24" visible="pin" length="short" rot="R180"/>
+<pin name="DIO1" x="15.24" y="12.7" visible="pin" length="short" rot="R180"/>
+<pin name="DIO2" x="15.24" y="10.16" visible="pin" length="short" rot="R180"/>
+<pin name="DIO3" x="15.24" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="DIO4" x="15.24" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="DIO5" x="15.24" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="GND" x="-15.24" y="-12.7" visible="pin" length="short"/>
+<pin name="MISO" x="15.24" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="MOSI" x="15.24" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="NSS" x="15.24" y="-12.7" visible="pin" length="short" rot="R180"/>
+<pin name="SCK" x="15.24" y="-10.16" visible="pin" length="short" rot="R180"/>
+<text x="-12.668" y="18.32" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="RFM95W" prefix="U">
+<description>&lt;h3&gt;RFM95/96/97/98&lt;/h3&gt;
+
+&lt;p&gt;The RFM95/96/97/98(W) transceivers feature the
+LoRaTM    long range modem that provides ultra-long range
+spread spectrum communication and high interference
+immunity whilst minimising current consumption. &lt;/p&gt;
+
+&lt;p&gt;These devices also support high performance (G)FSK
+modes for systems including WMBus, IEEE802.15.4g. The
+RFM95/96/97/98(W) deliver exceptional phase noise,
+selectivity, receiver linearity and IIP3 for significantly
+lower current consumption than competing devices&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.hoperf.com/upload/rf/RFM95_96_97_98W.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="RFM95W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RFM95/96/97/98W">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="!RESET"/>
+<connect gate="G$1" pin="3.3V" pad="3.3V"/>
+<connect gate="G$1" pin="ANT" pad="ANT"/>
+<connect gate="G$1" pin="DIO0" pad="DIO0"/>
+<connect gate="G$1" pin="DIO1" pad="DIO1"/>
+<connect gate="G$1" pin="DIO2" pad="DIO2"/>
+<connect gate="G$1" pin="DIO3" pad="DIO3"/>
+<connect gate="G$1" pin="DIO4" pad="DIO4"/>
+<connect gate="G$1" pin="DIO5" pad="DIO5"/>
+<connect gate="G$1" pin="GND" pad="GND@1 GND@2 GND@3"/>
+<connect gate="G$1" pin="MISO" pad="MISO"/>
+<connect gate="G$1" pin="MOSI" pad="MOSI"/>
+<connect gate="G$1" pin="NSS" pad="NSS"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="IC-13959" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -22651,7 +22744,7 @@ touch button, slider and wheel user interfaces.&lt;/p&gt;
 <part name="D2" library="SparkFun-LED" deviceset="LED-BLUE" device="0603" value="BLUE"/>
 <part name="R3" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
 <part name="GND21" library="SparkFun" deviceset="GND" device=""/>
-<part name="U3" library="SparkX" deviceset="RFM96W" device=""/>
+<part name="U3" library="SparkFun-RF" deviceset="RFM95W" device=""/>
 <part name="JP3" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" value=""/>
 <part name="JP4" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" value=""/>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -22685,7 +22778,7 @@ LoRa WAN compatibility</text>
 <text x="160.02" y="167.64" size="2.54" layer="94" font="vector">LIPO CHARGER</text>
 <wire x1="299.72" y1="175.26" x2="370.84" y2="175.26" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="370.84" y1="175.26" x2="431.8" y2="175.26" width="0.2032" layer="97" style="shortdash"/>
-<text x="304.8" y="271.78" size="2.54" layer="94" font="vector">RFM96W</text>
+<text x="304.8" y="271.78" size="2.54" layer="94" font="vector">RFM95W</text>
 <wire x1="0" y1="187.96" x2="27.94" y2="187.96" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="27.94" y1="187.96" x2="27.94" y2="243.84" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="27.94" y1="243.84" x2="0" y2="243.84" width="0.2032" layer="97" style="shortdash"/>
@@ -22851,11 +22944,11 @@ LoRa WAN compatibility</text>
 <instance part="GND21" gate="1" x="132.08" y="33.02"/>
 <instance part="U3" gate="G$1" x="335.28" y="241.3"/>
 <instance part="JP3" gate="G$1" x="375.92" y="254" smashed="yes">
-<attribute name="NAME" x="369.316" y="254.508" size="1.778" layer="95" font="vector"/>
+<attribute name="NAME" x="373.634" y="255.778" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="373.38" y="251.46" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 <instance part="JP4" gate="G$1" x="375.92" y="251.46" smashed="yes">
-<attribute name="NAME" x="369.316" y="251.968" size="1.778" layer="95" font="vector"/>
+<attribute name="NAME" x="373.634" y="247.65" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="373.38" y="248.92" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 <instance part="GND23" gate="1" x="317.5" y="223.52"/>
@@ -23251,19 +23344,21 @@ LoRa WAN compatibility</text>
 <label x="261.62" y="137.16" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<wire x1="180.34" y1="243.84" x2="190.5" y2="243.84" width="0.1524" layer="91"/>
-<pinref part="J7" gate="G$1" pin="2"/>
-<label x="193.04" y="243.84" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="190.5" y1="243.84" x2="193.04" y2="243.84" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="241.3" x2="190.5" y2="243.84" width="0.1524" layer="91"/>
-<junction x="190.5" y="243.84"/>
 <wire x1="193.04" y1="259.08" x2="190.5" y2="259.08" width="0.1524" layer="91"/>
 <pinref part="F1" gate="F1" pin="1"/>
 <pinref part="J12" gate="G$1" pin="1"/>
 <wire x1="190.5" y1="259.08" x2="180.34" y2="259.08" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="243.84" x2="190.5" y2="259.08" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="241.3" x2="190.5" y2="243.84" width="0.1524" layer="91"/>
 <junction x="190.5" y="259.08"/>
+<wire x1="190.5" y1="243.84" x2="190.5" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="248.92" x2="190.5" y2="259.08" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="248.92" x2="190.5" y2="248.92" width="0.1524" layer="91"/>
+<junction x="190.5" y="248.92"/>
+<wire x1="180.34" y1="243.84" x2="190.5" y2="243.84" width="0.1524" layer="91"/>
+<pinref part="J7" gate="G$1" pin="2"/>
+<junction x="190.5" y="243.84"/>
+<label x="193.04" y="248.92" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="CHARGE_STAT" class="0">
@@ -23504,15 +23599,17 @@ LoRa WAN compatibility</text>
 <wire x1="215.9" y1="251.46" x2="215.9" y2="254" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="254" x2="220.98" y2="254" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="254" x2="220.98" y2="261.62" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="261.62" x2="226.06" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="261.62" x2="223.52" y2="261.62" width="0.1524" layer="91"/>
 <junction x="226.06" y="261.62"/>
 <junction x="220.98" y="261.62"/>
 <pinref part="U6" gate="G$1" pin="IN"/>
 <pinref part="U6" gate="G$1" pin="EN"/>
 <pinref part="S1" gate="1" pin="P"/>
 <pinref part="J9" gate="G$1" pin="1"/>
-<wire x1="226.06" y1="261.62" x2="226.06" y2="264.16" width="0.1524" layer="91"/>
-<label x="226.06" y="264.16" size="1.27" layer="95" font="vector" rot="R90" xref="yes"/>
+<wire x1="223.52" y1="261.62" x2="226.06" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="264.16" x2="223.52" y2="261.62" width="0.1524" layer="91"/>
+<junction x="223.52" y="261.62"/>
+<label x="223.52" y="264.16" size="1.27" layer="95" font="vector" rot="R90" xref="yes"/>
 </segment>
 <segment>
 <wire x1="210.82" y1="187.96" x2="208.28" y2="187.96" width="0.1524" layer="91"/>
