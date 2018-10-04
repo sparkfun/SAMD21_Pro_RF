@@ -1,11 +1,11 @@
-SAMD21_Pro_RF LoRa 915MHz 
+SparkFun Pro RF - LoRa, 915MHz (SAMD21)
 ======================================
 
-[![SAMD21 Pro RF LoRa 915MHz](https://cdn.sparkfun.com/assets/parts/1/3/2/0/2/14916-Sparkfun_Pro_RF_-_LoRa_915MHz__SAMD21_-01a.jpg)](https://cdn.sparkfun.com/assets/parts/1/3/2/0/2/14916-Sparkfun_Pro_RF_-_LoRa_915MHz__SAMD21_-01a.jpg)
+[![SparkFun Pro RF - LoRa, 915MHz (SAMD21)](https://cdn.sparkfun.com/assets/parts/1/3/2/0/2/14916-Sparkfun_Pro_RF_-_LoRa_915MHz__SAMD21_-01a.jpg)](https://cdn.sparkfun.com/assets/parts/1/3/2/0/2/14916-Sparkfun_Pro_RF_-_LoRa_915MHz__SAMD21_-01a.jpg)
 
 [*SparkFun SAMD21 Pro RF LoRa 915MHz (WRL-14916)*](www.sparkfun.com/products/14916)
 
-The [SparkFun SAMD21 Pro RF](www.sparkfun.com/products/14916) is the fated meeting of a SAMD21 and a long-range [RFM95W LoRa®-enabled radio](http://www.hoperf.com/upload/rf/RFM95_96_97_98W.pdf). The outcome is a compact, blazing fast MCU with excellent point to point data transmission in the 915MHz ISM band with LoRa Capabilities. The SAMD21 Pro RF comes with a LiPo connector, an on-board LiPo charger, and a slide switch to power the board on and off. The board programs over a reinforced Micro-B connector with a slim reset button that fits nicely on the side of the board. We’ve even added our popular [Qwiic](https://www.sparkfun.com/qwiic) connector to the edge of the board making it incredibly easy to add sensors and actuators without the need for solder or a soldering iron!
+The [SparkFun SAMD21 Pro RF](www.sparkfun.com/products/14916) is the fated meeting of a SAMD21 and a long-range [RFM95W LoRaÂ®-enabled radio](http://www.hoperf.com/upload/rf/RFM95_96_97_98W.pdf). The outcome is a compact, blazing fast MCU with excellent point to point data transmission in the 915MHz ISM band with LoRa Capabilities. The SAMD21 Pro RF comes with a LiPo connector, an on-board LiPo charger, and a slide switch to power the board on and off. The board programs over a reinforced Micro-B connector with a slim reset button that fits nicely on the side of the board. Weâ€™ve even added our popular [Qwiic](https://www.sparkfun.com/qwiic) connector to the edge of the board making it incredibly easy to add sensors and actuators without the need for solder or a soldering iron!
 
 Repository Contents
 -------------------
