@@ -26932,6 +26932,8 @@ FQP27P06 -
 <part name="C7" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="GND19" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="LOGO3" library="SparkFun-Aesthetics" deviceset="QWIIC_LOGO" device="_5MM"/>
+<part name="J10" library="SparkFun-Connectors" deviceset="CONN_01" device="PTH_NO_SILK_YES_STOP"/>
+<part name="J14" library="SparkFun-Connectors" deviceset="CONN_01" device="PTH_NO_SILK_YES_STOP"/>
 </parts>
 <sheets>
 <sheet>
@@ -27372,6 +27374,14 @@ LoRa WAN compatibility</text>
 <attribute name="VALUE" x="55.88" y="225.806" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="LOGO3" gate="G$1" x="386.08" y="50.8" smashed="yes"/>
+<instance part="J10" gate="G$1" x="414.02" y="76.2" smashed="yes" rot="R180">
+<attribute name="VALUE" x="416.56" y="81.026" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="NAME" x="416.56" y="73.152" size="1.778" layer="95" font="vector" rot="R180"/>
+</instance>
+<instance part="J14" gate="G$1" x="414.02" y="66.04" smashed="yes" rot="R180">
+<attribute name="VALUE" x="416.56" y="70.866" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="NAME" x="416.56" y="62.992" size="1.778" layer="95" font="vector" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -28194,6 +28204,11 @@ LoRa WAN compatibility</text>
 <wire x1="129.54" y1="109.22" x2="132.08" y2="109.22" width="0.1524" layer="91"/>
 <label x="129.54" y="109.22" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J10" gate="G$1" pin="1"/>
+<wire x1="406.4" y1="76.2" x2="403.86" y2="76.2" width="0.1524" layer="91"/>
+<label x="403.86" y="76.2" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="SWDCLK" class="0">
 <segment>
@@ -28205,6 +28220,11 @@ LoRa WAN compatibility</text>
 <wire x1="129.54" y1="101.6" x2="132.08" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="TP2" gate="G$1" pin="1"/>
 <label x="129.54" y="101.6" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J14" gate="G$1" pin="1"/>
+<wire x1="406.4" y1="66.04" x2="403.86" y2="66.04" width="0.1524" layer="91"/>
+<label x="403.86" y="66.04" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
