@@ -25095,13 +25095,71 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </polygon>
 <circle x="0" y="0" radius="1.74625" width="0.2032" layer="21"/>
 </package>
+<package name="SMT-JUMPER_2_NC_TRACE_NO-SILK" urn="urn:adsk.eagle:footprint:39257/1">
+<smd name="1" x="-0.508" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0.508" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-0.508" y1="0" x2="0.508" y2="0" width="0.254" layer="1"/>
+<polygon width="0.127" layer="29">
+<vertex x="-0.1905" y="0.127"/>
+<vertex x="0.1905" y="0.127"/>
+<vertex x="0.1905" y="-0.127"/>
+<vertex x="-0.1905" y="-0.127"/>
+</polygon>
+</package>
+<package name="SMT-JUMPER_2_NC_TRACE_SILK" urn="urn:adsk.eagle:footprint:39258/1" locally_modified="yes">
+<wire x1="0.762" y1="-1.016" x2="-0.762" y2="-1.016" width="0.2032" layer="21"/>
+<wire x1="0.762" y1="1.016" x2="1.2192" y2="0.5588" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-1.2192" y1="0.5588" x2="-0.762" y2="1.016" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-1.2192" y1="-0.5588" x2="-0.762" y2="-1.016" width="0.2032" layer="21" curve="90"/>
+<wire x1="0.762" y1="-1.016" x2="1.2192" y2="-0.5588" width="0.2032" layer="21" curve="90"/>
+<wire x1="1.2192" y1="-0.5588" x2="1.2192" y2="0.5588" width="0.2032" layer="21"/>
+<wire x1="-1.2192" y1="-0.5588" x2="-1.2192" y2="0.5588" width="0.2032" layer="21"/>
+<wire x1="-0.762" y1="1.016" x2="0.762" y2="1.016" width="0.2032" layer="21"/>
+<wire x1="-0.508" y1="0" x2="0.508" y2="0" width="0.254" layer="1"/>
+<smd name="1" x="-0.508" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0.508" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<polygon width="0.127" layer="29">
+<vertex x="-0.1905" y="0.127"/>
+<vertex x="0.1905" y="0.127"/>
+<vertex x="0.1905" y="-0.127"/>
+<vertex x="-0.1905" y="-0.127"/>
+</polygon>
+</package>
 </packages>
+<packages3d>
+<package3d name="SMT-JUMPER_2_NC_TRACE_NO-SILK" urn="urn:adsk.eagle:package:39286/1" type="box">
+<packageinstances>
+<packageinstance name="SMT-JUMPER_2_NC_TRACE_NO-SILK"/>
+</packageinstances>
+</package3d>
+<package3d name="SMT-JUMPER_2_NC_TRACE_SILK" urn="urn:adsk.eagle:package:39281/1" type="box">
+<packageinstances>
+<packageinstance name="SMT-JUMPER_2_NC_TRACE_SILK"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="SMT-JUMPER_2_NO">
 <wire x1="0.381" y1="0.635" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
 <wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
 <wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="SMT-JUMPER_2_NC_TRACE">
+<wire x1="0.381" y1="0.635" x2="1.016" y2="0" width="1.27" layer="94" curve="-90" cap="flat"/>
+<wire x1="1.016" y1="0" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-90" cap="flat"/>
+<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.762" y1="0" x2="1.016" y2="0" width="0.254" layer="94"/>
 <text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
 <text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
@@ -25153,6 +25211,45 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JUMPER-SMT_2_NC_TRACE" prefix="JP">
+<description>&lt;h3&gt;Normally closed trace jumper&lt;/h3&gt;
+&lt;p&gt;This jumper has a trace between two pads so it's normally closed (NC). Use a razor knife to open the connection. For best results follow the IPC guidelines for cutting traces:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cutout at least 0.063 mm (0.005 in).&lt;/li&gt;
+&lt;li&gt;Remove all loose material to clean up the cut area.&lt;/li&gt;
+&lt;li&gt;Seal the cut with an approved epoxy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Reapply solder to reclose the connection.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="SMT-JUMPER_2_NC_TRACE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_NO-SILK" package="SMT-JUMPER_2_NC_TRACE_NO-SILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39286/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_SILK" package="SMT-JUMPER_2_NC_TRACE_SILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39281/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -26934,6 +27031,7 @@ FQP27P06 -
 <part name="LOGO3" library="SparkFun-Aesthetics" deviceset="QWIIC_LOGO" device="_5MM"/>
 <part name="J10" library="SparkFun-Connectors" deviceset="CONN_01" device="PTH_NO_SILK_YES_STOP"/>
 <part name="J14" library="SparkFun-Connectors" deviceset="CONN_01" device="PTH_NO_SILK_YES_STOP"/>
+<part name="LED" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value=""/>
 </parts>
 <sheets>
 <sheet>
@@ -26983,6 +27081,9 @@ LoRa WAN compatibility</text>
 <text x="256.54" y="195.58" size="1.778" layer="97" font="vector">Switch</text>
 <text x="331.978" y="7.112" size="2.54" layer="94" font="vector">Revised by:</text>
 <text x="357.378" y="7.112" size="2.54" layer="94" font="vector">Pete Lewis</text>
+<text x="346.964" y="207.518" size="1.778" layer="97" font="vector">Cut jumper
+to disable
+LED</text>
 </plain>
 <instances>
 <instance part="R6" gate="G$1" x="12.7" y="119.38" smashed="yes" rot="R90">
@@ -27067,16 +27168,16 @@ LoRa WAN compatibility</text>
 <instance part="GND30" gate="1" x="317.5" y="205.74" smashed="yes">
 <attribute name="VALUE" x="317.5" y="205.486" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="R13" gate="G$1" x="340.36" y="213.36" smashed="yes" rot="R90">
-<attribute name="NAME" x="338.836" y="213.36" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="341.884" y="213.36" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R13" gate="G$1" x="340.36" y="195.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="338.836" y="195.58" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="341.884" y="195.58" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="LED1" gate="G$1" x="340.36" y="203.2" smashed="yes">
-<attribute name="NAME" x="336.931" y="198.628" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="342.265" y="198.628" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<instance part="LED1" gate="G$1" x="340.36" y="185.42" smashed="yes">
+<attribute name="NAME" x="336.931" y="180.848" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="342.265" y="180.848" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
-<instance part="GND31" gate="1" x="340.36" y="193.04" smashed="yes">
-<attribute name="VALUE" x="340.36" y="192.786" size="1.778" layer="96" align="top-center"/>
+<instance part="GND31" gate="1" x="340.36" y="175.26" smashed="yes">
+<attribute name="VALUE" x="340.36" y="175.006" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="C14" gate="G$1" x="327.66" y="215.9" smashed="yes" rot="R180">
 <attribute name="NAME" x="328.676" y="216.027" size="1.778" layer="95" font="vector"/>
@@ -27382,6 +27483,10 @@ LoRa WAN compatibility</text>
 <attribute name="VALUE" x="416.56" y="70.866" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="416.56" y="62.992" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
+<instance part="LED" gate="G$1" x="340.36" y="210.82" smashed="yes" rot="R270">
+<attribute name="NAME" x="342.9" y="213.36" size="1.778" layer="95" font="vector" rot="R270"/>
+<attribute name="VALUE" x="337.82" y="213.36" size="1.778" layer="96" font="vector" rot="R270" align="top-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -27446,7 +27551,7 @@ LoRa WAN compatibility</text>
 <pinref part="GND30" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="340.36" y1="195.58" x2="340.36" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="177.8" x2="340.36" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <pinref part="GND31" gate="1" pin="GND"/>
 </segment>
@@ -27845,20 +27950,20 @@ LoRa WAN compatibility</text>
 <wire x1="317.5" y1="220.98" x2="327.66" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="220.98" x2="340.36" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="340.36" y1="220.98" x2="340.36" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="340.36" y1="220.98" x2="340.36" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="317.5" y1="220.98" x2="317.5" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="307.34" y1="220.98" x2="307.34" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="218.44" x2="327.66" y2="220.98" width="0.1524" layer="91"/>
-<junction x="340.36" y="220.98"/>
 <junction x="317.5" y="220.98"/>
 <junction x="307.34" y="220.98"/>
 <junction x="327.66" y="220.98"/>
 <pinref part="U6" gate="G$1" pin="OUT"/>
-<pinref part="R13" gate="G$1" pin="2"/>
 <pinref part="C12" gate="G$1" pin="1"/>
 <pinref part="C13" gate="G$1" pin="+"/>
 <pinref part="C14" gate="G$1" pin="2"/>
 <pinref part="P+10" gate="G$1" pin="3.3V"/>
+<pinref part="LED" gate="G$1" pin="1"/>
+<wire x1="340.36" y1="220.98" x2="340.36" y2="215.9" width="0.1524" layer="91"/>
+<junction x="340.36" y="220.98"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="2"/>
@@ -27961,7 +28066,7 @@ LoRa WAN compatibility</text>
 </net>
 <net name="N$38" class="0">
 <segment>
-<wire x1="340.36" y1="205.74" x2="340.36" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="187.96" x2="340.36" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="R13" gate="G$1" pin="1"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
 </segment>
@@ -28432,6 +28537,13 @@ LoRa WAN compatibility</text>
 <wire x1="55.88" y1="241.3" x2="55.88" y2="238.76" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="LED" gate="G$1" pin="2"/>
+<pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="340.36" y1="205.74" x2="340.36" y2="200.66" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
@@ -28451,6 +28563,11 @@ with this version.
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets
 will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>
