@@ -10,7 +10,7 @@
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -9026,10 +9026,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CAP-00868" x="8.763" y="17.145" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="9.525" y="17.145" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="C7" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="35.052" y="14.3256" smashed="yes" rot="R90">
+<element name="C7" library="SparkFun-Capacitors" package="0603" value="1.0uF" x="35.052" y="14.3256" smashed="yes" rot="R90">
 <attribute name="NAME" x="34.29" y="14.3256" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-00810" x="35.052" y="14.3256" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="VALUE" x="35.814" y="14.3256" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
+<attribute name="PROD_ID" value="CAP-00868" x="35.052" y="14.3256" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="VALUE" value="1.0uF" x="35.814" y="14.3256" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="LOGO3" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="37.7952" y="15.24" smashed="yes" rot="R90"/>
 <element name="J10" library="SparkFun-Connectors" package="1X01_NO_SILK" value="" x="43.18" y="6.35" smashed="yes">
@@ -10185,12 +10185,17 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="4,1,209045c5c5561d76"/>
-<approved hash="4,1,17d47bda0ca9ea72"/>
-<approved hash="4,1,0cd9bc3d3c6b510c"/>
 <approved hash="7,39,a0eccc948326e058"/>
 <approved hash="7,39,cfc98e060e064fc9"/>
 <approved hash="7,39,e5c0a40f240f65c0"/>
+<approved hash="4,1,cef9eaf6d9fb42aa"/>
+<approved hash="4,1,b303a2ed901f3cc4"/>
+<approved hash="4,1,54e455b93e7f115c"/>
+<approved hash="19,16,74f23c80f790c8cf"/>
+<approved hash="19,16,b8a6cee2778f715e"/>
+<approved hash="19,16,199d3bda50d30201"/>
+<approved hash="19,16,be32b96829602e3a"/>
+<approved hash="19,16,49657e4cae837781"/>
 </errors>
 </board>
 </drawing>
