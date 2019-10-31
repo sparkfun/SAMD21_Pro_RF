@@ -27031,7 +27031,6 @@ FQP27P06 -
 <part name="C6" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="L1" library="SparkFun-Coils" deviceset="INDUCTOR" device="FB-30OHM"/>
 <part name="P+8" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="P+11" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="C10" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="GND13" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND15" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -27134,6 +27133,7 @@ LoRa WAN compatibility</text>
 <text x="346.964" y="207.518" size="1.778" layer="97" font="vector">Cut jumper
 to disable
 LED</text>
+<text x="88.9" y="152.4" size="2.54" layer="97" font="vector">VCC RANGE: 1.62-3.63V</text>
 </plain>
 <instances>
 <instance part="R6" gate="G$1" x="12.7" y="119.38" smashed="yes" rot="R90">
@@ -27375,9 +27375,6 @@ LED</text>
 </instance>
 <instance part="P+8" gate="G$1" x="12.7" y="127" smashed="yes">
 <attribute name="VALUE" x="12.7" y="129.794" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="P+11" gate="G$1" x="73.66" y="243.84" smashed="yes">
-<attribute name="VALUE" x="73.66" y="246.634" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="C10" gate="G$1" x="157.48" y="233.68" smashed="yes" rot="R180">
 <attribute name="NAME" x="158.496" y="233.807" size="1.778" layer="95" font="vector"/>
@@ -28057,12 +28054,8 @@ LED</text>
 <wire x1="45.72" y1="246.38" x2="63.5" y2="246.38" width="0.1524" layer="91"/>
 <junction x="45.72" y="246.38"/>
 <wire x1="63.5" y1="246.38" x2="63.5" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="238.76" x2="73.66" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="238.76" x2="73.66" y2="243.84" width="0.1524" layer="91"/>
-<pinref part="P+11" gate="G$1" pin="3.3V"/>
-<junction x="73.66" y="238.76"/>
 <pinref part="U4" gate="G$1" pin="VDDIN"/>
-<wire x1="73.66" y1="238.76" x2="63.5" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="238.76" x2="63.5" y2="238.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="L1" gate="G$1" pin="1"/>
