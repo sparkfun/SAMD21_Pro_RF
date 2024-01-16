@@ -12660,8 +12660,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$621" library="buzzard_labels (2)" package="LED0" value="" x="106.553" y="69.469" smashed="yes" rot="MR0"/>
 <element name="E$1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="9.398" y="94.5515" smashed="yes"/>
 <element name="E$2" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="9.398" y="94.5515" smashed="yes" rot="MR0"/>
-<element name="E$3" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="137.6045" y="94.5515" smashed="yes"/>
-<element name="E$4" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="137.6045" y="94.5515" smashed="yes" rot="MR0"/>
+<element name="E$3" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="130.0353" y="94.5515" smashed="yes"/>
+<element name="E$4" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="130.0353" y="94.5515" smashed="yes" rot="MR0"/>
 <element name="E$5" library="SparkFun-Retired" package="FIDUCIAL-1.5X3" value="" x="9.398" y="-2.0955" smashed="yes"/>
 <element name="E$6" library="SparkFun-Retired" package="FIDUCIAL-1.5X3" value="" x="9.398" y="-2.0955" smashed="yes" rot="MR0"/>
 </elements>
