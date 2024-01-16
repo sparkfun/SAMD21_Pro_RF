@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -215,7 +215,7 @@ RFM95W</text>
 </polygon>
 <text x="10.287" y="12.065" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">+</text>
 <text x="10.541" y="10.795" size="1.27" layer="22" font="vector" ratio="15" rot="MR270">-</text>
-<text x="-15.24" y="-29.21" size="1.778" layer="51" font="vector" ratio="15" align="center">0.8mm Board Thickness</text>
+<text x="53.34" y="36.83" size="1.778" layer="51" font="vector" ratio="15">Board Thickness: 0.8mm </text>
 <wire x1="0" y1="16.002" x2="0" y2="6.35" width="0.1524" layer="22"/>
 <wire x1="0" y1="6.35" x2="5.08" y2="6.35" width="0.1524" layer="22"/>
 <text x="41.402" y="-11.049" size="1.778" layer="51" font="vector" ratio="11" rot="R180">Elias Santistevan</text>
@@ -8900,7 +8900,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$57" library="buzzard_labels (8)" package="TX3" value="" x="36.957" y="5.588" smashed="yes" rot="MR0"/>
 <element name="U$25" library="buzzard_labels (3)" package="LORA0" value="" x="22.352" y="10.287" smashed="yes" rot="MR0"/>
 <element name="U$35" library="buzzard_labels (3)" package="WAN1" value="" x="18.923" y="10.287" smashed="yes" rot="MR0"/>
-<element name="U$26" library="SparkFun-Aesthetics" package="ORDERING_INSTRUCTIONS" value="SPECIAL_INSTRUCTIONS-ORDERING" x="-33.02" y="-17.78" smashed="yes"/>
+<element name="U$26" library="SparkFun-Aesthetics" package="ORDERING_INSTRUCTIONS" value="SPECIAL_INSTRUCTIONS-ORDERING" x="52.07" y="49.53" smashed="yes"/>
 <element name="R4" library="SparkFun-Resistors" package="0603" value="10k" x="21.717" y="16.002" smashed="yes">
 <attribute name="NAME" x="21.717" y="16.764" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-00824" x="21.717" y="16.002" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
